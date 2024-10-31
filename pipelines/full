@@ -1,0 +1,15 @@
+#/bin/bash
+set -euo pipefail
+
+# load data into bronze
+python scripts/load_json.py --conf sales.toml
+python scripts/load_json.py --conf products.toml
+
+# transform data and move to silver
+python scripts/transform_sales.py --conf sales.toml
+
+# load data into warehouse (duckdb)
+python scripts/load_duckdb.py
+
+# (TODO) perform quality checks
+

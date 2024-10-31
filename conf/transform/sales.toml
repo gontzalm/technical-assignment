@@ -1,0 +1,27 @@
+[read]
+sources = ["sales.parquet", "products.parquet"]
+
+[transform.filter]
+sales = ["product_id is not null and sale_date is not null"]
+
+[transform.join]
+base = "sales"
+other = "products"
+on = "sales.product_id = products.product_id"
+how = "left"
+select = [
+  "sales.sale_id",
+  "sales.product_id",
+  "products.product_name",
+  "products.category",
+  "sales.sale_date",
+  "sales.quantity",
+  "sales.price",
+]
+
+[transform.operations]
+add_columns = { "total_sales" = "quantity * price" }
+
+[write]
+compression = "zstd"
+target = "sales.parquet"

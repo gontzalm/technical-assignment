@@ -1,0 +1,6 @@
+[read]
+file = "sales_data.json"
+
+[write]
+compression = "zstd"
+target = "sales.parquet"

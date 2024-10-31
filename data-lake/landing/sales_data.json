@@ -1,0 +1,23 @@
+[
+  {
+    "sale_id": 1,
+    "product_id": "A12",
+    "sale_date": "2023-01-01",
+    "quantity": 2,
+    "price": 15.5
+  },
+  {
+    "sale_id": 2,
+    "product_id": null,
+    "sale_date": "2023-01-02",
+    "quantity": 1,
+    "price": 10.0
+  },
+  {
+    "sale_id": 3,
+    "product_id": "B23",
+    "sale_date": null,
+    "quantity": 3,
+    "price": 25.0
+  }
+]
