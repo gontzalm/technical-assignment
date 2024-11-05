@@ -1,23 +1,702 @@
 [
-  {
-    "sale_id": 1,
-    "product_id": "A12",
-    "sale_date": "2023-01-01",
-    "quantity": 2,
-    "price": 15.5
-  },
-  {
-    "sale_id": 2,
-    "product_id": null,
-    "sale_date": "2023-01-02",
-    "quantity": 1,
-    "price": 10.0
-  },
-  {
-    "sale_id": 3,
-    "product_id": "B23",
-    "sale_date": null,
-    "quantity": 3,
-    "price": 25.0
-  }
+    {
+        "sale_id": 1,
+        "product_id": "B23",
+        "sale_date": "2024-06-14",
+        "quantity": 4,
+        "price": 18.76
+    },
+    {
+        "sale_id": 2,
+        "product_id": "A12",
+        "sale_date": "2023-11-19",
+        "quantity": 3,
+        "price": 18.61
+    },
+    {
+        "sale_id": 3,
+        "product_id": "B23",
+        "sale_date": "2024-04-07",
+        "quantity": 6,
+        "price": 14.99
+    },
+    {
+        "sale_id": 4,
+        "product_id": "A12",
+        "sale_date": "2024-03-16",
+        "quantity": 3,
+        "price": 38.13
+    },
+    {
+        "sale_id": 5,
+        "product_id": "C34",
+        "sale_date": "2024-08-24",
+        "quantity": 1,
+        "price": 32.1
+    },
+    {
+        "sale_id": 6,
+        "product_id": "C34",
+        "sale_date": "2023-11-18",
+        "quantity": 9,
+        "price": 33.91
+    },
+    {
+        "sale_id": 7,
+        "product_id": "C34",
+        "sale_date": "2024-03-26",
+        "quantity": 7,
+        "price": 12.95
+    },
+    {
+        "sale_id": 8,
+        "product_id": "A12",
+        "sale_date": null,
+        "quantity": 7,
+        "price": 25.52
+    },
+    {
+        "sale_id": 9,
+        "product_id": null,
+        "sale_date": "2024-06-23",
+        "quantity": 10,
+        "price": 32.77
+    },
+    {
+        "sale_id": 10,
+        "product_id": null,
+        "sale_date": "2024-07-11",
+        "quantity": 3,
+        "price": 30.82
+    },
+    {
+        "sale_id": 11,
+        "product_id": "C34",
+        "sale_date": "2024-09-27",
+        "quantity": 5,
+        "price": 35.31
+    },
+    {
+        "sale_id": 12,
+        "product_id": "B23",
+        "sale_date": "2024-11-03",
+        "quantity": 4,
+        "price": 30.72
+    },
+    {
+        "sale_id": 13,
+        "product_id": "B23",
+        "sale_date": "2024-02-05",
+        "quantity": 9,
+        "price": 28.43
+    },
+    {
+        "sale_id": 14,
+        "product_id": "C34",
+        "sale_date": "2024-05-09",
+        "quantity": 9,
+        "price": 15.53
+    },
+    {
+        "sale_id": 15,
+        "product_id": null,
+        "sale_date": "2024-03-29",
+        "quantity": 7,
+        "price": 43.0
+    },
+    {
+        "sale_id": 16,
+        "product_id": null,
+        "sale_date": "2024-01-23",
+        "quantity": 3,
+        "price": 39.39
+    },
+    {
+        "sale_id": 17,
+        "product_id": "A12",
+        "sale_date": "2024-07-10",
+        "quantity": 3,
+        "price": 15.97
+    },
+    {
+        "sale_id": 18,
+        "product_id": "C34",
+        "sale_date": "2024-05-04",
+        "quantity": 10,
+        "price": 45.78
+    },
+    {
+        "sale_id": 19,
+        "product_id": "B23",
+        "sale_date": null,
+        "quantity": 7,
+        "price": 13.12
+    },
+    {
+        "sale_id": 20,
+        "product_id": "A12",
+        "sale_date": "2024-01-31",
+        "quantity": 7,
+        "price": 26.97
+    },
+    {
+        "sale_id": 21,
+        "product_id": "C34",
+        "sale_date": "2023-11-13",
+        "quantity": 2,
+        "price": 21.34
+    },
+    {
+        "sale_id": 22,
+        "product_id": "B23",
+        "sale_date": null,
+        "quantity": 1,
+        "price": 30.14
+    },
+    {
+        "sale_id": 23,
+        "product_id": "B23",
+        "sale_date": "2024-04-27",
+        "quantity": 4,
+        "price": 31.0
+    },
+    {
+        "sale_id": 24,
+        "product_id": "C34",
+        "sale_date": "2024-08-10",
+        "quantity": 3,
+        "price": 38.28
+    },
+    {
+        "sale_id": 25,
+        "product_id": "B23",
+        "sale_date": "2023-12-03",
+        "quantity": 5,
+        "price": 41.22
+    },
+    {
+        "sale_id": 26,
+        "product_id": null,
+        "sale_date": "2024-04-05",
+        "quantity": 8,
+        "price": 49.18
+    },
+    {
+        "sale_id": 27,
+        "product_id": "C34",
+        "sale_date": "2024-05-31",
+        "quantity": 3,
+        "price": 13.74
+    },
+    {
+        "sale_id": 28,
+        "product_id": "C34",
+        "sale_date": "2023-12-04",
+        "quantity": 5,
+        "price": 24.37
+    },
+    {
+        "sale_id": 29,
+        "product_id": "A12",
+        "sale_date": "2024-06-27",
+        "quantity": 8,
+        "price": 33.64
+    },
+    {
+        "sale_id": 30,
+        "product_id": "C34",
+        "sale_date": "2024-08-13",
+        "quantity": 4,
+        "price": 11.51
+    },
+    {
+        "sale_id": 31,
+        "product_id": null,
+        "sale_date": "2024-03-25",
+        "quantity": 9,
+        "price": 47.28
+    },
+    {
+        "sale_id": 32,
+        "product_id": "B23",
+        "sale_date": "2023-11-15",
+        "quantity": 6,
+        "price": 25.96
+    },
+    {
+        "sale_id": 33,
+        "product_id": "C34",
+        "sale_date": "2023-11-27",
+        "quantity": 7,
+        "price": 17.59
+    },
+    {
+        "sale_id": 34,
+        "product_id": "B23",
+        "sale_date": "2024-02-19",
+        "quantity": 4,
+        "price": 12.84
+    },
+    {
+        "sale_id": 35,
+        "product_id": "B23",
+        "sale_date": "2024-08-26",
+        "quantity": 6,
+        "price": 38.21
+    },
+    {
+        "sale_id": 36,
+        "product_id": "A12",
+        "sale_date": "2024-07-19",
+        "quantity": 3,
+        "price": 25.29
+    },
+    {
+        "sale_id": 37,
+        "product_id": "C34",
+        "sale_date": "2024-07-10",
+        "quantity": 4,
+        "price": 31.13
+    },
+    {
+        "sale_id": 38,
+        "product_id": "A12",
+        "sale_date": "2024-10-07",
+        "quantity": 10,
+        "price": 27.79
+    },
+    {
+        "sale_id": 39,
+        "product_id": null,
+        "sale_date": "2024-04-28",
+        "quantity": 6,
+        "price": 39.56
+    },
+    {
+        "sale_id": 40,
+        "product_id": null,
+        "sale_date": "2024-07-07",
+        "quantity": 10,
+        "price": 47.08
+    },
+    {
+        "sale_id": 41,
+        "product_id": "C34",
+        "sale_date": "2024-04-19",
+        "quantity": 7,
+        "price": 19.97
+    },
+    {
+        "sale_id": 42,
+        "product_id": "C34",
+        "sale_date": "2023-12-23",
+        "quantity": 8,
+        "price": 44.42
+    },
+    {
+        "sale_id": 43,
+        "product_id": "A12",
+        "sale_date": "2024-01-18",
+        "quantity": 4,
+        "price": 49.89
+    },
+    {
+        "sale_id": 44,
+        "product_id": "B23",
+        "sale_date": "2023-11-12",
+        "quantity": 5,
+        "price": 40.56
+    },
+    {
+        "sale_id": 45,
+        "product_id": "A12",
+        "sale_date": "2023-12-27",
+        "quantity": 5,
+        "price": 15.02
+    },
+    {
+        "sale_id": 46,
+        "product_id": "C34",
+        "sale_date": "2024-06-01",
+        "quantity": 8,
+        "price": 13.1
+    },
+    {
+        "sale_id": 47,
+        "product_id": "C34",
+        "sale_date": null,
+        "quantity": 7,
+        "price": 15.78
+    },
+    {
+        "sale_id": 48,
+        "product_id": "B23",
+        "sale_date": "2024-08-05",
+        "quantity": 3,
+        "price": 15.14
+    },
+    {
+        "sale_id": 49,
+        "product_id": null,
+        "sale_date": "2024-08-06",
+        "quantity": 7,
+        "price": 38.85
+    },
+    {
+        "sale_id": 50,
+        "product_id": "A12",
+        "sale_date": "2023-11-15",
+        "quantity": 1,
+        "price": 23.63
+    },
+    {
+        "sale_id": 51,
+        "product_id": null,
+        "sale_date": "2023-12-21",
+        "quantity": 7,
+        "price": 35.87
+    },
+    {
+        "sale_id": 52,
+        "product_id": "C34",
+        "sale_date": "2023-11-28",
+        "quantity": 1,
+        "price": 16.72
+    },
+    {
+        "sale_id": 53,
+        "product_id": null,
+        "sale_date": "2024-05-14",
+        "quantity": 5,
+        "price": 35.39
+    },
+    {
+        "sale_id": 54,
+        "product_id": "B23",
+        "sale_date": "2024-10-09",
+        "quantity": 7,
+        "price": 19.43
+    },
+    {
+        "sale_id": 55,
+        "product_id": null,
+        "sale_date": "2023-11-16",
+        "quantity": 9,
+        "price": 28.51
+    },
+    {
+        "sale_id": 56,
+        "product_id": "A12",
+        "sale_date": "2024-07-12",
+        "quantity": 8,
+        "price": 43.36
+    },
+    {
+        "sale_id": 57,
+        "product_id": "B23",
+        "sale_date": "2023-12-22",
+        "quantity": 2,
+        "price": 21.86
+    },
+    {
+        "sale_id": 58,
+        "product_id": "A12",
+        "sale_date": "2024-06-19",
+        "quantity": 4,
+        "price": 32.61
+    },
+    {
+        "sale_id": 59,
+        "product_id": "B23",
+        "sale_date": "2024-07-18",
+        "quantity": 6,
+        "price": 42.26
+    },
+    {
+        "sale_id": 60,
+        "product_id": "B23",
+        "sale_date": "2024-11-02",
+        "quantity": 6,
+        "price": 21.71
+    },
+    {
+        "sale_id": 61,
+        "product_id": "C34",
+        "sale_date": "2023-11-09",
+        "quantity": 6,
+        "price": 16.59
+    },
+    {
+        "sale_id": 62,
+        "product_id": "A12",
+        "sale_date": null,
+        "quantity": 2,
+        "price": 45.88
+    },
+    {
+        "sale_id": 63,
+        "product_id": "C34",
+        "sale_date": "2024-01-11",
+        "quantity": 6,
+        "price": 32.49
+    },
+    {
+        "sale_id": 64,
+        "product_id": "A12",
+        "sale_date": "2023-12-01",
+        "quantity": 2,
+        "price": 14.57
+    },
+    {
+        "sale_id": 65,
+        "product_id": "B23",
+        "sale_date": "2024-08-04",
+        "quantity": 5,
+        "price": 27.65
+    },
+    {
+        "sale_id": 66,
+        "product_id": "C34",
+        "sale_date": "2024-04-20",
+        "quantity": 2,
+        "price": 13.88
+    },
+    {
+        "sale_id": 67,
+        "product_id": null,
+        "sale_date": "2024-05-10",
+        "quantity": 8,
+        "price": 13.95
+    },
+    {
+        "sale_id": 68,
+        "product_id": "A12",
+        "sale_date": "2024-09-05",
+        "quantity": 10,
+        "price": 46.15
+    },
+    {
+        "sale_id": 69,
+        "product_id": "B23",
+        "sale_date": "2023-11-18",
+        "quantity": 1,
+        "price": 48.73
+    },
+    {
+        "sale_id": 70,
+        "product_id": "C34",
+        "sale_date": "2024-04-05",
+        "quantity": 10,
+        "price": 23.99
+    },
+    {
+        "sale_id": 71,
+        "product_id": "A12",
+        "sale_date": "2024-10-21",
+        "quantity": 8,
+        "price": 26.47
+    },
+    {
+        "sale_id": 72,
+        "product_id": null,
+        "sale_date": "2024-01-02",
+        "quantity": 10,
+        "price": 24.74
+    },
+    {
+        "sale_id": 73,
+        "product_id": null,
+        "sale_date": "2024-05-06",
+        "quantity": 3,
+        "price": 11.75
+    },
+    {
+        "sale_id": 74,
+        "product_id": "B23",
+        "sale_date": "2024-07-22",
+        "quantity": 6,
+        "price": 22.46
+    },
+    {
+        "sale_id": 75,
+        "product_id": "C34",
+        "sale_date": "2023-12-17",
+        "quantity": 2,
+        "price": 44.3
+    },
+    {
+        "sale_id": 76,
+        "product_id": "A12",
+        "sale_date": null,
+        "quantity": 1,
+        "price": 33.44
+    },
+    {
+        "sale_id": 77,
+        "product_id": "C34",
+        "sale_date": "2024-01-13",
+        "quantity": 2,
+        "price": 11.93
+    },
+    {
+        "sale_id": 78,
+        "product_id": "C34",
+        "sale_date": "2023-12-23",
+        "quantity": 5,
+        "price": 39.63
+    },
+    {
+        "sale_id": 79,
+        "product_id": "A12",
+        "sale_date": "2023-11-18",
+        "quantity": 2,
+        "price": 29.53
+    },
+    {
+        "sale_id": 80,
+        "product_id": "C34",
+        "sale_date": null,
+        "quantity": 4,
+        "price": 28.62
+    },
+    {
+        "sale_id": 81,
+        "product_id": "A12",
+        "sale_date": "2024-02-01",
+        "quantity": 6,
+        "price": 25.1
+    },
+    {
+        "sale_id": 82,
+        "product_id": null,
+        "sale_date": "2023-12-12",
+        "quantity": 8,
+        "price": 11.89
+    },
+    {
+        "sale_id": 83,
+        "product_id": "C34",
+        "sale_date": null,
+        "quantity": 10,
+        "price": 29.55
+    },
+    {
+        "sale_id": 84,
+        "product_id": "C34",
+        "sale_date": "2024-01-02",
+        "quantity": 5,
+        "price": 27.93
+    },
+    {
+        "sale_id": 85,
+        "product_id": null,
+        "sale_date": null,
+        "quantity": 7,
+        "price": 33.3
+    },
+    {
+        "sale_id": 86,
+        "product_id": "C34",
+        "sale_date": "2023-12-24",
+        "quantity": 1,
+        "price": 24.41
+    },
+    {
+        "sale_id": 87,
+        "product_id": null,
+        "sale_date": "2024-01-12",
+        "quantity": 3,
+        "price": 13.68
+    },
+    {
+        "sale_id": 88,
+        "product_id": "B23",
+        "sale_date": null,
+        "quantity": 7,
+        "price": 39.12
+    },
+    {
+        "sale_id": 89,
+        "product_id": "C34",
+        "sale_date": "2024-08-01",
+        "quantity": 6,
+        "price": 10.24
+    },
+    {
+        "sale_id": 90,
+        "product_id": "A12",
+        "sale_date": "2024-04-22",
+        "quantity": 8,
+        "price": 22.22
+    },
+    {
+        "sale_id": 91,
+        "product_id": null,
+        "sale_date": null,
+        "quantity": 9,
+        "price": 28.78
+    },
+    {
+        "sale_id": 92,
+        "product_id": "C34",
+        "sale_date": "2023-11-20",
+        "quantity": 6,
+        "price": 11.66
+    },
+    {
+        "sale_id": 93,
+        "product_id": null,
+        "sale_date": "2023-11-17",
+        "quantity": 4,
+        "price": 19.82
+    },
+    {
+        "sale_id": 94,
+        "product_id": "A12",
+        "sale_date": "2024-10-12",
+        "quantity": 10,
+        "price": 35.25
+    },
+    {
+        "sale_id": 95,
+        "product_id": "B23",
+        "sale_date": "2024-06-19",
+        "quantity": 8,
+        "price": 13.27
+    },
+    {
+        "sale_id": 96,
+        "product_id": null,
+        "sale_date": "2023-12-09",
+        "quantity": 1,
+        "price": 17.32
+    },
+    {
+        "sale_id": 97,
+        "product_id": "B23",
+        "sale_date": null,
+        "quantity": 5,
+        "price": 48.97
+    },
+    {
+        "sale_id": 98,
+        "product_id": "C34",
+        "sale_date": "2024-01-29",
+        "quantity": 2,
+        "price": 47.86
+    },
+    {
+        "sale_id": 99,
+        "product_id": null,
+        "sale_date": "2024-03-28",
+        "quantity": 1,
+        "price": 14.95
+    },
+    {
+        "sale_id": 100,
+        "product_id": "B23",
+        "sale_date": null,
+        "quantity": 5,
+        "price": 25.76
+    }
 ]

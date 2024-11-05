@@ -11,5 +11,5 @@ python scripts/transform_sales.py --conf sales.toml
 # load data into warehouse (duckdb)
 python scripts/load_duckdb.py
 
-# (TODO) perform quality checks
-
+# perform quality checks
+pytest

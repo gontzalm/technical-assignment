@@ -1,20 +1,20 @@
 [
-  {
-    "product_id": "A12",
-    "product_name": "Widget A",
-    "category": "Widgets",
-    "price": 15.5
-  },
-  {
-    "product_id": "B23",
-    "product_name": "Widget B",
-    "category": "Widgets",
-    "price": 25.0
-  },
-  {
-    "product_id": "C34",
-    "product_name": "Gadget C",
-    "category": "Gadgets",
-    "price": 45.0
-  }
+    {
+        "product_id": "A12",
+        "product_name": "Widget A",
+        "category": "Widgets",
+        "price": 15.5
+    },
+    {
+        "product_id": "B23",
+        "product_name": "Widget B",
+        "category": "Widgets",
+        "price": 25.0
+    },
+    {
+        "product_id": "C34",
+        "product_name": "Gadget C",
+        "category": "Gadgets",
+        "price": 45.0
+    }
 ]
