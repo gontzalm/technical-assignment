@@ -15,7 +15,8 @@ Using the [uv](https://docs.astral.sh/uv/) package manager:
 1. Install the dependencies:
 
    ```bash
-   uv venv uv pip sync requirements.txt
+   uv venv
+   uv pip sync requirements.txt
    ```
 
 1. Run the pipeline:
